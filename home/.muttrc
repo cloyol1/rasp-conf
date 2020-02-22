@@ -1,0 +1,58 @@
+set editor=vim # Aqui setamos nosso editor de preferência
+
+set signature= # Aqui colocaremos a assinatura caso precisamos 
+
+set from="carlos.loyola@mandic.net.br"
+set realname="Carlos Loyola"
+
+#OBS:abaixo temos configuração do IMAP, o foco não é explicar como ativar isso no gmail.pois encontramos em vários lugares na internet.
+
+set imap_user="carlos.loyola@mandic.net.br" #seu email
+set imap_pass="atqzmfrtyehnfqcq" # falarei mais abaixo sobre o password para o gmail.
+set smtp_url="smtp://carlos.loyola@smtp.gmail.com:587/" # config smtp do gmail.
+set smtp_pass="atqzmfrtyehnfqcq" # já falei vou falar abaixo 
+
+set ssl_starttls=yes # usando certificado
+set ssl_force_tls=yes # forçando 
+
+set folder="imaps://imap.gmail.com:993" # config imap gmail
+set spoolfile="+INBOX" #no caso setei caixa de entrada 
+set timeout=10 # aqui é importante pois setamos de quanto em quanto tempo ele vai checkar se teremos novos e-mails.
+
+# abaixo perfurmaria  
+# colors
+color normal     white black
+color attachment brightyellow black
+color hdrdefault cyan black
+color indicator  black cyan
+color markers    brightred black
+color quoted     green black
+color signature  cyan black
+color status     brightgreen blue
+color tilde      blue black
+color tree       red black
+color sidebar_new yellow default
+color index     yellow         default  ~N      # New
+color index     yellow         default  ~O      # Old
+color header    yellow         default  "^from"
+color header    brightgreen    default  "^from:"
+color header    green      default  "^to:"
+color header    green      default  "^cc:"
+color header    green      default  "^date:"
+color header    yellow     default  "^newsgroups:"
+color header    yellow     default  "^reply-to:"
+color header    brightcyan default  "^subject:"
+color header    red        default  "^x-spam-rule:"
+color header    yellow     default  "^x-mailer:"
+color header    yellow     default  "^message-id:"
+color header    yellow     default  "^Organization:"
+color header    yellow     default  "^Organisation:"
+color header    yellow     default  "^User-Agent:"
+color header    yellow     default  "^message-id: .*pine"
+color header    yellow     default  "^X-Fnord:"
+color header    yellow     default  "^X-WebTV-Stationery:"
+color header    yellow     default  "^X-Message-Flag:"
+color header    yellow     default  "^X-Spam-Status:"
+color header    yellow     default  "^X-SpamProbe:"
+color header    red        default  "^X-SpamProbe: SPAM"
+color body      yellow     default  "[;:]-[)/(|]"  # colorise smileys
