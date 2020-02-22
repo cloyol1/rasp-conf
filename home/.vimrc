@@ -22,7 +22,7 @@ filetype indent plugin on
  
 " Enable syntax highlighting
 syntax on
-colorscheme distinguished 
+colorscheme desert 
  
 "------------------------------------------------------------
 " Must have options {{{1

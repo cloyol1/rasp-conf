@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/cloyol1/.oh-my-zsh"
+export ZSH="~/.oh-my-zsh"
 export PATH=$PATH:/usr/local/bin
 
 alias ls='ls --color=tty -F'
