@@ -19,3 +19,4 @@ sudo apt install -y moc \
      lynx \
      vim \
      glances \
+     screen \

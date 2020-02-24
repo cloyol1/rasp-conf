@@ -18,8 +18,8 @@ sudo usermod -aG docker $USER
 
 #####KUBECTL INSTALL#####
 
-curl -o kubectl https://amazon-eks.s3-us-west-2.amazonaws.com/1.14.6/2019-08-22/bin/linux/amd64/kubectl
+#curl -o kubectl https://amazon-eks.s3-us-west-2.amazonaws.com/1.14.6/2019-08-22/bin/linux/amd64/kubectl
 
-chmod +x ./kubectl
+#chmod +x ./kubectl
 
-sudo mv kubectl /usr/local/bin/
+#sudo mv kubectl /usr/local/bin/
