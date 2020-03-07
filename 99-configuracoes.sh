@@ -17,11 +17,11 @@ cp config/rc.conf "$HOME/.config/ranger/"
 mkdir -p "$HOME/.config/tmuxinator/"
 cp config/tmux_carlos.yml "$HOME/.config/tmuxinator/"
 cp config/terminator/config "$HOME/.config/terminator/"
+
 # user dirs
 echo -e "Criando pastas do usuário..."
 mkdir -p "$HOME/Docs"
 mkdir -p "$HOME/Downloads"
-mkdir -p "$HOME/Pics"
 
 # create ~/.local dirs 
 echo -e "Criando pasta ~/.local..."
