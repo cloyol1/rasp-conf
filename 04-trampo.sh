@@ -23,3 +23,4 @@ sudo usermod -aG docker $USER
 #chmod +x ./kubectl
 
 #sudo mv kubectl /usr/local/bin/
+wget https://storage.googleapis.com/kubernetes-release/release/v1.18.0/kubernetes-client-linux-arm.tar.gz
