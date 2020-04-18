@@ -8,7 +8,6 @@ cp home/.vimrc "$HOME/.vimrc"
 cp home/.tmux.conf "$HOME/.tmux.conf"
 cp -R home/.vim "$HOME/.vim"
 cp home/.muttrc "$HOME/.muttrc"
-
 #config ranger
 ranger --copy-config=all
 cp config/rc.conf "$HOME/.config/ranger/"
